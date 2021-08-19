@@ -27,7 +27,16 @@ def encrypt(string, key):
 
     return output
 
+
+
+def decrypt(string, key):
+    return encrypt(string, -key)
+
+def crack(string):
+    pass
+
 if __name__=="__main__":
-    string= "Test encrypt"
+    string= "Whvw hqfubsw"
     key= 3
     print(encrypt(string, key))
+    print(decrypt(string, key))
