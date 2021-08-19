@@ -36,7 +36,10 @@ def crack(string):
     pass
 
 if __name__=="__main__":
-    string= "Whvw hqfubsw"
-    key= 3
-    print(encrypt(string, key))
-    print(decrypt(string, key))
+    # string= "Whvw hqfubsw"
+    # key= 3
+    # print(encrypt(string, key))
+    # print(decrypt(string, key))
+
+    print(encrypt('  #$@#$@#$ TT !@#!@#%^^&%^&',2))
+    # print(decrypt("   VV ", 2))
